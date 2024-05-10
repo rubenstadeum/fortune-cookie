@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(45deg, #190361, #BB00FF);
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+body,
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
+  background: white;
+  border-radius: 5px;
+  padding: 4.8rem 6.4rem 6.4rem;
+
+}
+
+h2 {
+  font-size: 2.4rem;
+  line-height: 1.6;
+}
