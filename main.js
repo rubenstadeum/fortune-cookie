@@ -28,12 +28,12 @@ document.addEventListener('keydown', function(e) {
 })
 
 function handleTryClick(event) {
-  toggleScrean()
+  toggleScreen()
   pickFortune()
 }
 
 function handleClickReset() {
-  toggleScrean()
+  toggleScreen()
 }
 
 function pickFortune() {
@@ -43,7 +43,7 @@ function pickFortune() {
 }
 
 
-function toggleScrean() {
+function toggleScreen() {
   screen1.classList.toggle("hide")
   screen2.classList.toggle("hide")
 }
