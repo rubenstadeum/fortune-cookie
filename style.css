@@ -51,14 +51,12 @@ p {
   text-align: center;
 }
 
-#fortuneCookie {
-  width: 30rem;
-  height: 20rem;
-  background-image: url(./assets/fortune-cookie.jpg);
+#fortuneCookie img {
+  max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
-  margin: 2rem 3rem 0 0;
+  background-size: cover;
+  margin: 0 auto;
 }
 
 #fortuneCookie:hover {
